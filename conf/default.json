@@ -1,0 +1,8 @@
+{
+  "releases": {
+    "url": "https://github.com/nodejs/node/releases.atom"
+  },
+  "remoteData": {
+    "url": "https://github.com"
+  }
+}

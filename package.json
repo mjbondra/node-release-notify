@@ -1,0 +1,27 @@
+{
+  "name": "node-release-notify",
+  "version": "1.0.0",
+  "description": "script that notifies when there are new node.js releases",
+  "main": "index.js",
+  "author": "Michael J. Bondra",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "convict": "^1.5.0",
+    "node-fetch": "^1.6.3",
+    "node-notifier": "^4.6.1",
+    "opn": "^4.0.2",
+    "thenify-all": "^1.6.0",
+    "winston": "^2.2.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-mjbondra": "^1.2.1",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
